@@ -27,7 +27,7 @@ jobs:
       
       - name: Build and push Image
         run: |
-          echo "${{secrets.SEC_KEY}}" | docker login  -u "harinaru"  --password=echo "${{secrets.PWD_DOC}}"
+          echo "${{secrets.SEC_KEY}}" | docker login  -u "harinaru"  --password="${{secrets.PWD_DOC}}"
           docker image build -t harinaru/flaskapp_githubactions:v1 .
           docker push harinaru/flaskapp_githubactions:v1
 
