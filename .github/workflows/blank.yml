@@ -32,7 +32,4 @@ jobs:
           docker push harinaru/flaskapp_githubactions:v1
 
       
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+     
