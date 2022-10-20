@@ -1,3 +1,3 @@
 # my-demo_project
-this is the firat aotomated proj with git action
+This is my First Automated Project with Git hub Actions
 srfgs
